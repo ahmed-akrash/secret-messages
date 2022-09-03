@@ -1,0 +1,103 @@
+
+/**********************************************************************************************/
+
+/*start massage box*/
+
+#messageBox
+{
+	width: 35%;
+	height: 75%;
+	background-color: rgba(255,255,255,0.4);
+	margin:15% 0% 0% 30%;
+	border: 1px solid black;
+	border-radius: 10px;
+	text-align: center;
+	display:inline-block;
+}
+#messageBox img
+{
+	width: 100px;
+	height: 100px;
+	border: 1px solid white;
+	border-radius: 50%;
+	margin:-10% 0% 0% 0;
+
+}
+
+
+/* end massage box*/
+
+/**********************************************************************************************/
+
+/*start search */
+#search
+{
+	width: 25%;
+	height: 130%;
+	background-color: rgba(255,255,255,0.4);
+	margin:3.2% 0% 0% 0%;
+	border: 1px solid black;
+	border-radius: 10px;
+	text-align: center;
+	float: right;
+	display: inline-block;
+}
+#search img
+{
+	width: 100px;
+	height: 100px;
+	border: 1px solid white;
+	border-radius: 50%;
+	margin:-10% 0% 0% 0;
+
+}
+#search input
+{
+	
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+/* end search */
+
+/**********************************************************************************************/
+
+/* start result */
+
+/**********************************************************************************************/
+
+#result
+{
+	width: 80%;
+	max-height: 70%;
+	background-color: rgba(255,255,255,0.4);
+	overflow:auto;
+	margin: auto;
+	margin-top: 2%;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size:0.8em;
+}
+#result img
+{
+	width:20px;
+	height: 20px;
+	
+}
+#result h1
+{
+	display: inline-block;
+	padding: 5px;
+}
+#result input
+{
+	float: right;
+	margin:2% 3% 0.3% 0;
+	background-color: rgba(255,255,255,0.4);
+	border: 1px solid white;
+	border-radius: 10px;
+	
+}
+/* end result */
+
+/*********************************************************************************************************/

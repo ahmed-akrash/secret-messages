@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: "Open Sans",Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-style: italic;
+	font-weight: bolder;
+	
+}
+body
+{
+	width: 100%;
+	height: 400px;
+	background: url(../images/ground6.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+/************************************************************************************************************/
+
+header
+{
+	width: 100%;
+	height: 30px;
+	background-color:rgba(255,255,255,0.4);
+	border:1px solid rgba(0,0,0,0.4);
+	border-radius:10px;
+	position: fixed;
+	top: 0;
+	text-align: center;
+	color: white;
+	
+}
+header span
+{
+	width: 300px;
+	height: 100%;
+	
+}
+header span img
+{
+	width: 40px;
+	height: 90%;
+	border: 1px solid white;
+	border-radius: 50%;
+	margin:0% 0% 0% 0.5%;
+	float: left;
+}
+header span h1
+{
+	float:left;
+	font-size:18px;
+	padding:0.2% 0.1%;
+	margin-left:0.3%;
+}
+header input
+{
+	float: right;
+	width: 7%;
+	height: 90%;
+	border: 1px solid white;
+	border-radius: 10px;;
+	margin:0% 0.5% 0% 0%;
+	background-color:rgba(255,255,255,0.4);
+}
+/* end header*/
+
+/**********************************************************************************************/
+
+/*start footer*/
+
+
+
+footer
+{
+	width: 100%;
+	height: 40px;
+	background-color:rgba(255,255,255,0.4);
+	border:1px solid black;
+	border-radius:10px;
+	position: fixed;
+	top:95%;
+	text-align: center;
+}
+
+/* end footer*/
+
+/**********************************************************************************************/
+
